@@ -9,7 +9,7 @@ class App extends React.Component{
         }
     }
 
-    
+    //called when component updated
   componentDidUpdate(prevprops,prevstate)
   {
       console.log("component Updated");
@@ -42,6 +42,7 @@ class App extends React.Component{
            this.setState({count:0});
        }
     }
+
 
 
 
